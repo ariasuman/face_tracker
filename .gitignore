@@ -1,16 +1,53 @@
 
+# Python virtual environment
 venv/
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
 
+# Python environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code settings
+.vscode/
+
+# YOLO and other model weights
 models/*.pt
+models/*.onnx
+models/*.pth
+models/*.engine
 
+# Video files
 data/*.mp4
+data/*.avi
+data/*.mov
+data/*.mkv
+
+# Private face test photographs
+data/test_face.png
+data/face_1.png
+data/face_2.png
+data/face_3.png
+
+# Database files
 data/*.db
 data/*.db-wal
 data/*.db-shm
+*.sqlite
+*.sqlite3
 
+# Logs
 logs/
+*.log
 
-.env
-.vscode/
+# Python testing and cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
