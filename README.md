@@ -677,4 +677,6 @@ Design choices visible in the code, and why each helps. **No accuracy figures ar
 
 **▶ [Watch the project demo on Loom](https://www.loom.com/share/9f6458a8ad5846448371ffd2f75f8067)**
 
+This project is a part of a hackathon run by https://katomaran.com
+
 </div>
