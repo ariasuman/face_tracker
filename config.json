@@ -1,0 +1,23 @@
+{
+    "boundary": {
+        "margin_x_ratio": 0.08,
+        "margin_y_ratio": 0.08,
+        "hysteresis_ratio": 0.02,
+        "max_track_gap": 90,
+        "report_initial_inside": true,
+        "duplicate_track_window": 15
+    },
+    "processing": {
+        "frame_skip": 2,
+        "show_window": true,
+        "display_max_width": 1280,
+        "close_visits_on_end": true
+    },
+    "identity": {
+        "max_register_yaw": 60,
+        "insightface_det_size": 1280
+    },
+    "camera": {
+        "source": "data/sample.mp4"
+    }
+}
